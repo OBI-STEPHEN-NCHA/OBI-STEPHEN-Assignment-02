@@ -30,7 +30,7 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    let evenNumbers=[];
+    let evenNumbers=[9];
 arrayOfNumbers.forEach((item)=> { if (item % 2 == 0){evenNumbers.push(item);}});
 return evenNumbers.lenght;
 }  
