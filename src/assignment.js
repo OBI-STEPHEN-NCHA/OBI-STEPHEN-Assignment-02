@@ -35,7 +35,6 @@ For ( let i = 0; i < arrayOfNumbers.length; i ++){
 If(arrayOfNumbers[i] % 2==0){
             Count++
     }
-}
   Return count;
 }  
 assignment.countEvenNumbers = countEvenNumbers;
