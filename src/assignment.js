@@ -32,7 +32,7 @@ function sumOfNumbers(arrayOfNumbers) {
 function countEvenNumbers(arrayOfNumbers) {
     let evenNumbers=[];
 arrayOfNumbers.forEach((item)=> { if (item % 2 == 0){evenNumbers.push(item);}});
-return even numbers.lenght;
+return evenNumbers.lenght;
 }  
 assignment.countEvenNumbers = countEvenNumbers;
 
