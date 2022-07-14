@@ -31,10 +31,10 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
     let count=0;
-    for(let i=0; i<arrayOfNumbers.length; i++){ count=count+arrayOfNumbers[i];}
-}
-    return count;    
-    assignment.countEvenNumbers = countEvenNumbers;
+    for(let i=0; i<arrayOfNumbers.length; i++){ count+=arrayOfNumbers[i];}
+return count;
+}  
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
